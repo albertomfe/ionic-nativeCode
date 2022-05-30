@@ -1,0 +1,7 @@
+{
+  "name": "demoNative",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
