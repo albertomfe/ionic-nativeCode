@@ -27,6 +27,10 @@ const routes: Routes = [
     path: 'share',
     loadChildren: () => import('./pages/share/share.module').then( m => m.SharePageModule)
   },
+  {
+    path: 'splash-presentation',
+    loadChildren: () => import('./pages/splash-presentation/splash-presentation.module').then( m => m.SplashPresentationPageModule)
+  },
 ];
 
 @NgModule({
